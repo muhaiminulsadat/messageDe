@@ -1,18 +1,22 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { frameStyleFromUrl, getWallpaperById } from "../data/wallpapers";
 import { WallpaperContext } from "./wallpaper";
 
 const STORAGE_KEY = "chat-wallpaper-id";
 
-function readStoredWallpaperId() {
+function readStoredWallpaperId(): string {
   const wallpaperId = localStorage.getItem(STORAGE_KEY);
   if (wallpaperId) return wallpaperId;
 
   return "sonoma-horizon";
 }
 
-export function WallpaperProvider({ children }) {
-  const [wallpaperId, setWallpaperIdState] = useState(readStoredWallpaperId);
+interface WallpaperProviderProps {
+  children: React.ReactNode;
+}
+
+export function WallpaperProvider({ children }: WallpaperProviderProps) {
+  const [wallpaperId, setWallpaperIdState] = useState<string>(readStoredWallpaperId);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, wallpaperId);
@@ -20,7 +24,7 @@ export function WallpaperProvider({ children }) {
 
   const wallpaper = getWallpaperById(wallpaperId);
 
-  const setWallpaperId = (id) => {
+  const setWallpaperId = (id: string | ((prev: string) => string)) => {
     setWallpaperIdState(id);
   };
 
@@ -31,4 +35,4 @@ export function WallpaperProvider({ children }) {
       {children}
     </WallpaperContext.Provider>
   );
-}
+}

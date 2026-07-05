@@ -84,7 +84,14 @@ export const WALLPAPERS = [
   },
 ];
 
-export function frameStyleFromUrl(url) {
+export interface Wallpaper {
+  id: string;
+  category: string;
+  label: string;
+  url: string;
+}
+
+export function frameStyleFromUrl(url: string) {
   return {
     backgroundImage: `url("${url}")`,
     backgroundSize: "cover",
@@ -92,6 +99,6 @@ export function frameStyleFromUrl(url) {
   };
 }
 
-export function getWallpaperById(id) {
+export function getWallpaperById(id: string): Wallpaper {
   return WALLPAPERS.find((w) => w.id === id) ?? WALLPAPERS[0];
-}
+}
