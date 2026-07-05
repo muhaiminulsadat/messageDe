@@ -18,6 +18,7 @@
     "@types/node": "^26.1.0",
     "better-auth": "^1.6.23",
     "cors": "^2.8.6",
+    "cron": "^4.4.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongodb": "^7.4.0",

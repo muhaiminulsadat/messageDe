@@ -5,6 +5,7 @@ import {auth} from "./lib/auth.ts";
 import {toNodeHandler} from "better-auth/node";
 import path from "node:path";
 import fs from "fs";
+import job from "./lib/cron.ts";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -44,9 +45,13 @@ if (fs.existsSync(publicDir)) {
 const startServer = async () => {
   try {
     await connectDB();
+
     app.listen(PORT, () => {
+      if (process.env.NODE_ENV === "production") job.start();
       console.log(`Server is running on port ${PORT}`);
     });
+
+    
   } catch (error) {
     console.error("Failed to start the server:", error);
     process.exit(1);
