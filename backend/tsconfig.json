@@ -11,6 +11,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true
   },
   "include": ["src/**/*"]
 }
