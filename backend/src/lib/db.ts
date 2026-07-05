@@ -10,11 +10,11 @@ if (!uri) {
   throw new Error("MONGODB_URI environment variable is missing from .env");
 }
 
-// Initialize MongoClient for Better Auth
+
 export const client = new MongoClient(uri);
 export const db = client.db();
 
-// Helper to connect to both Mongoose and the native MongoDB Client
+
 export const connectDB = async () => {
   try {
     if (mongoose.connection.readyState >= 1) {
