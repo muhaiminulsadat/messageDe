@@ -6,6 +6,7 @@ import {toNodeHandler} from "better-auth/node";
 import path from "node:path";
 import fs from "fs";
 import job from "./lib/cron.ts";
+import authRoute from "./routes/auth.route.ts";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -23,6 +24,9 @@ app.all("/api/auth/{*any}", toNodeHandler(auth));
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+
+// ================== Routes ===================
+app.use("/api/auth", authRoute);
 
 app.get("/health", (req, res) => {
   res.status(200).json({status: "ok"});
@@ -50,8 +54,6 @@ const startServer = async () => {
       if (process.env.NODE_ENV === "production") job.start();
       console.log(`Server is running on port ${PORT}`);
     });
-
-    
   } catch (error) {
     console.error("Failed to start the server:", error);
     process.exit(1);
