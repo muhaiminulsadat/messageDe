@@ -8,8 +8,8 @@ import {toNodeHandler} from "better-auth/node";
 import job from "./lib/cron.ts";
 import authRoute from "./routes/auth.route.ts";
 import messageRoutes from "./routes/message.route.ts";
+import {app, server} from "./lib/socket.ts";
 
-const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 1. Global Middlewares
@@ -46,7 +46,7 @@ if (fs.existsSync(publicDir)) {
 const startServer = async () => {
   try {
     await connectDB();
-    app.listen(PORT, () => {
+    server.listen(PORT, () => {
       if (process.env.NODE_ENV === "production") {
         job.start();
       }

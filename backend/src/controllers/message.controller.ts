@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import User from "../models/user.model.ts";
 import Message from "../models/message.model.ts";
 import {hasImageKitConfig, uploadChatMedia} from "../lib/imagekit.ts";
+import {getReceiverSocketId, io} from "../lib/socket.ts";
 
 export const getUsersForSidebar = async (req: Request, res: Response) => {
   try {
@@ -136,7 +137,15 @@ export const sendMessage = async (req: Request, res: Response) => {
       video: videoUrl,
     });
 
-    // todo: realtime with socketio
+    // REALTIME Message WITH SOCKETIO
+
+    const receiverSocketId = getReceiverSocketId(receiverId as string);
+
+    //Only send the message realtime if receiver is online
+    if (receiverSocketId) {
+      io.to(receiverSocketId).emit("newMessage", newMessage);
+    }
+
     res.status(201).json(newMessage);
   } catch (error: any) {
     console.error("Error in sendMessage:", error.message);
