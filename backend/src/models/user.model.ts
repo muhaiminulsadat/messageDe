@@ -5,6 +5,7 @@ export interface IUser {
   email: string;
   emailVerified: boolean;
   profilePic?: string;
+  password?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -15,6 +16,7 @@ const UserSchema = new Schema<IUser>(
     email: {type: String, required: true, unique: true},
     emailVerified: {type: Boolean, required: true},
     profilePic: {type: String},
+    password: {type: String},
   },
   {
     timestamps: true,

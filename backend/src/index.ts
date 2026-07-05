@@ -1,57 +1,55 @@
 import express from "express";
 import cors from "cors";
+import path from "node:path";
+import fs from "node:fs";
 import {connectDB} from "./lib/db.ts";
 import {auth} from "./lib/auth.ts";
 import {toNodeHandler} from "better-auth/node";
-import path from "node:path";
-import fs from "fs";
 import job from "./lib/cron.ts";
 import authRoute from "./routes/auth.route.ts";
+import messageRoutes from "./routes/message.route.ts";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const publicDir = path.join(process.cwd(), "public");
-
+// 1. Global Middlewares
 app.use(
   cors({
     origin: process.env.CLIENT_URL || "http://localhost:5173",
     credentials: true,
   }),
 );
-
-app.all("/api/auth/{*any}", toNodeHandler(auth));
-
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-// ================== Routes ===================
+// 2. Authentication Handler (Better Auth)
+app.all("/api/auth/{*any}", toNodeHandler(auth));
+
+// 3. API Routes
 app.use("/api/auth", authRoute);
+app.use("/api/messages", messageRoutes);
 
 app.get("/health", (req, res) => {
   res.status(200).json({status: "ok"});
 });
 
-// =============================================
-
-// if the public directory exists, serve the static files
-// this is for the production build
+// 4. Static Frontend Serving (Production)
+const publicDir = path.join(process.cwd(), "public");
 if (fs.existsSync(publicDir)) {
   app.use(express.static(publicDir));
-
   app.get("/{*any}", (req, res, next) => {
     res.sendFile(path.join(publicDir, "index.html"), (err) => next(err));
   });
 }
 
-// =============================================
-
+// 5. Server Initialization
 const startServer = async () => {
   try {
     await connectDB();
-
     app.listen(PORT, () => {
-      if (process.env.NODE_ENV === "production") job.start();
+      if (process.env.NODE_ENV === "production") {
+        job.start();
+      }
       console.log(`Server is running on port ${PORT}`);
     });
   } catch (error) {

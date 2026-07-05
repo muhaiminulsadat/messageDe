@@ -2,10 +2,20 @@ import {Request, Response, NextFunction} from "express";
 import {fromNodeHeaders} from "better-auth/node";
 import {auth} from "../lib/auth.js";
 
+export interface AuthUser {
+  id: string;
+  email: string;
+  emailVerified: boolean;
+  name: string;
+  image?: string | null;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
 declare global {
   namespace Express {
     interface Request {
-      user?: any;
+      user?: AuthUser;
       session?: any;
     }
   }
@@ -25,7 +35,7 @@ const protectRoute = async (
       return res.status(401).json({message: "Unauthorized"});
     }
 
-    req.user = session.user.id;
+    req.user = session.user;
 
     next();
   } catch (error) {
