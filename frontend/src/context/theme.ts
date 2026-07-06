@@ -6,7 +6,9 @@ import {
 
 export interface ThemeContextType {
   theme: "light" | "dark";
-  setTheme: (theme: "light" | "dark" | ((prev: "light" | "dark") => "light" | "dark")) => void;
+  setTheme: (
+    theme: "light" | "dark" | ((prev: "light" | "dark") => "light" | "dark"),
+  ) => void;
   toggleTheme: () => void;
   themePreset: string;
   setThemePreset: (preset: string | ((prev: string) => string)) => void;
@@ -33,4 +35,3 @@ export function useTheme() {
   }
   return ctx;
 }
-

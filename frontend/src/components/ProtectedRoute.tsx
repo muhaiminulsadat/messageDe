@@ -1,14 +1,14 @@
 import React from "react";
-import { Navigate } from "react-router";
-import { Spinner } from "@heroui/react";
-import { authClient } from "../lib/auth-client";
+import {Navigate} from "react-router";
+import {Spinner} from "@heroui/react";
+import {authClient} from "../lib/auth-client";
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
 }
 
-export const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
-  const { data: session, isPending } = authClient.useSession();
+export const ProtectedRoute = ({children}: ProtectedRouteProps) => {
+  const {data: session, isPending} = authClient.useSession();
 
   if (isPending) {
     return (
