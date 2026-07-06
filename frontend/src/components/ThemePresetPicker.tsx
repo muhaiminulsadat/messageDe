@@ -7,7 +7,7 @@ export function ThemePresetPicker() {
   const modal = useOverlayState();
   const {themePreset, setThemePreset} = useTheme();
 
-  const handleSelect = (id) => {
+  const handleSelect = (id: string) => {
     applyThemePresetToDocument(id);
     setThemePreset(id);
     modal.close();

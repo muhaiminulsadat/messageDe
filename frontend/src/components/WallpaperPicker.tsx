@@ -3,8 +3,15 @@ import {Check, ImageIcon} from "lucide-react";
 import {useTransition} from "react";
 import {useWallpaper} from "../context/wallpaper";
 import {WALLPAPER_SECTIONS, WALLPAPERS} from "../data/wallpapers";
+import type {Wallpaper} from "../data/wallpapers";
 
-function WallpaperThumb({wallpaper, selected, onSelect}) {
+interface WallpaperThumbProps {
+  wallpaper: Wallpaper;
+  selected: boolean;
+  onSelect: (id: string) => void;
+}
+
+function WallpaperThumb({wallpaper, selected, onSelect}: WallpaperThumbProps) {
   return (
     <button
       type="button"
@@ -48,7 +55,7 @@ export function WallpaperPicker() {
   const {wallpaperId, setWallpaperId} = useWallpaper();
   const [, startTransition] = useTransition();
 
-  const handleSelect = (id) => {
+  const handleSelect = (id: string) => {
     modal.close();
     startTransition(() => {
       setWallpaperId(id);
