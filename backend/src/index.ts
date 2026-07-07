@@ -12,6 +12,8 @@ import {app, server} from "./lib/socket.ts";
 
 const PORT = process.env.PORT || 3000;
 
+app.set("trust proxy", true);
+
 // 1. Global Middlewares
 app.use(
   cors({
@@ -19,11 +21,12 @@ app.use(
     credentials: true,
   }),
 );
-app.use(express.json());
-app.use(express.urlencoded({extended: true}));
 
 // 2. Authentication Handler (Better Auth)
 app.all("/api/auth/*splat", toNodeHandler(auth));
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 
 // 3. API Routes
 app.use("/api/auth", authRoute);

@@ -417,7 +417,7 @@
       "label": "publicDir",
       "file_type": "code",
       "source_file": "backend/src/index.ts",
-      "source_location": "L37",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "backend_src_index_publicdir",
       "community": 0,
@@ -427,7 +427,7 @@
       "label": "startServer()",
       "file_type": "code",
       "source_file": "backend/src/index.ts",
-      "source_location": "L46",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "backend_src_index_startserver",
       "community": 0,
@@ -447,7 +447,7 @@
       "label": "Auth",
       "file_type": "code",
       "source_file": "backend/src/lib/auth.ts",
-      "source_location": "L16",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "backend_src_lib_auth_auth",
       "community": 0,
@@ -1460,7 +1460,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "frontend_src_components_themepresetpicker_themepresetpicker",
-      "community": 1,
+      "community": 11,
       "norm_label": "themepresetpicker()"
     },
     {
@@ -1470,7 +1470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_components_themetoggle",
-      "community": 1,
+      "community": 11,
       "norm_label": "themetoggle.tsx"
     },
     {
@@ -1480,7 +1480,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "frontend_src_components_themetoggle_themetoggle",
-      "community": 1,
+      "community": 11,
       "norm_label": "themetoggle()"
     },
     {
@@ -1520,7 +1520,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "frontend_src_components_wallpaperpicker_wallpaperpicker",
-      "community": 2,
+      "community": 11,
       "norm_label": "wallpaperpicker()"
     },
     {
@@ -1740,7 +1740,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "frontend_src_context_theme_usetheme",
-      "community": 1,
+      "community": 11,
       "norm_label": "usetheme()"
     },
     {
@@ -1780,7 +1780,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "frontend_src_context_wallpaper_usewallpaper",
-      "community": 2,
+      "community": 11,
       "norm_label": "usewallpaper()"
     },
     {
@@ -1910,7 +1910,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "frontend_src_pages_authpage_authpage",
-      "community": 2,
+      "community": 11,
       "norm_label": "authpage()"
     },
     {
@@ -1927,7 +1927,7 @@
       "label": "ChatPage()",
       "file_type": "code",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L8",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "frontend_src_pages_chatpage_chatpage",
       "community": 11,
@@ -3399,7 +3399,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L37",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "backend_src_index",
       "target": "backend_src_index_publicdir",
@@ -3409,7 +3409,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L46",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "backend_src_index",
       "target": "backend_src_index_startserver",
@@ -3563,7 +3563,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L48",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "backend_src_index_startserver",
       "target": "backend_src_lib_db_connectdb",
@@ -3573,7 +3573,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/lib/auth.ts",
-      "source_location": "L16",
+      "source_location": "L19",
       "weight": 1.0,
       "source": "backend_src_lib_auth",
       "target": "backend_src_lib_auth_auth",
@@ -4839,6 +4839,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_themepresetpicker",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4868,6 +4879,17 @@
       "source_location": "L10",
       "weight": 1.0,
       "source": "frontend_src_pages_authpage",
+      "target": "frontend_src_components_themepresetpicker_themepresetpicker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_components_themepresetpicker_themepresetpicker",
       "confidence_score": 1.0
     },
@@ -4915,6 +4937,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_themetoggle",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4933,6 +4966,17 @@
       "source_location": "L9",
       "weight": 1.0,
       "source": "frontend_src_pages_authpage",
+      "target": "frontend_src_components_themetoggle_themetoggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_components_themetoggle_themetoggle",
       "confidence_score": 1.0
     },
@@ -5033,6 +5077,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_wallpaperpicker",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "context": "field",
       "confidence": "EXTRACTED",
@@ -5053,6 +5108,17 @@
       "weight": 1.0,
       "source": "frontend_src_components_wallpaperpicker_wallpaperpicker",
       "target": "frontend_src_context_wallpaper_usewallpaper"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_wallpaperpicker_wallpaperpicker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5640,6 +5706,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_context_wallpaper",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "context": "field",
       "confidence": "EXTRACTED",
@@ -5671,6 +5748,28 @@
       "weight": 1.0,
       "source": "frontend_src_pages_authpage_authpage",
       "target": "frontend_src_context_wallpaper_usewallpaper"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_context_wallpaper_usewallpaper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage_chatpage",
+      "target": "frontend_src_context_wallpaper_usewallpaper",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5789,7 +5888,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L8",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_pages_chatpage_chatpage",
@@ -6587,5 +6686,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a121cff0b64eec790a0ba54a0b12cb1ddcee4be0"
+  "built_at_commit": "b44fccb7c0700e87222787b972fbf23cb7b6b939"
 }

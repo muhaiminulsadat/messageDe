@@ -15,13 +15,13 @@
     "semantic_hash": "c005764a2a610ed412abdd94232f241e"
   },
   "backend/src/index.ts": {
-    "mtime": 1783439449.3337283,
-    "ast_hash": "28468d6d55784b3896181c150b1ead35",
+    "mtime": 1783441797.8666224,
+    "ast_hash": "6f6ef4cf6923ff872adf813457cf07c7",
     "semantic_hash": ""
   },
   "backend/src/lib/auth.ts": {
-    "mtime": 1783439689.4855797,
-    "ast_hash": "ff8d719cd6244388330d9a0eea001321",
+    "mtime": 1783440453.1514826,
+    "ast_hash": "67d59b277351a399338b25a006040ff0",
     "semantic_hash": ""
   },
   "backend/src/lib/cron.ts": {
@@ -155,9 +155,9 @@
     "semantic_hash": "233f5624e4fd01920daf4d02438e970c"
   },
   "frontend/src/lib/auth-client.ts": {
-    "mtime": 1783276169.586178,
-    "ast_hash": "449385068166e0c76c3080c2af9d3d5c",
-    "semantic_hash": "449385068166e0c76c3080c2af9d3d5c"
+    "mtime": 1783441359.5603552,
+    "ast_hash": "09ac52cf994538c8bd4b529284af7b2f",
+    "semantic_hash": ""
   },
   "frontend/src/main.tsx": {
     "mtime": 1783275849.6129181,
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "frontend/src/pages/ChatPage.tsx": {
-    "mtime": 1783439266.8402636,
-    "ast_hash": "aac09c16439c6682c3e736354cab1bce",
+    "mtime": 1783440614.0241492,
+    "ast_hash": "62ed28c88517236f56b287ebaa738ca6",
     "semantic_hash": ""
   },
   "frontend/tsconfig.app.json": {

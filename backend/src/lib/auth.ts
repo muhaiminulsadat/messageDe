@@ -10,6 +10,7 @@ export const auth = betterAuth({
     enabled: true,
     minPasswordLength: 6,
   },
+  basePath: "/api/auth",
   trustedOrigins: [
     process.env.CLIENT_URL ||
       process.env.FRONTEND_URL ||

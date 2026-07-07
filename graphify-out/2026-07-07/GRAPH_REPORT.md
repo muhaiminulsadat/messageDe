@@ -1,16 +1,16 @@
 # Graph Report - messageDe  (2026-07-07)
 
 ## Corpus Check
-- 46 files · ~277,926 words
+- 46 files · ~278,018 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 280 nodes · 365 edges · 19 communities (17 shown, 2 thin omitted)
+- 280 nodes · 374 edges · 19 communities (17 shown, 2 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a121cff0`
+- Built from commit: `b44fccb7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,17 +38,17 @@
 3. `compilerOptions` - 13 edges
 4. `ThemeProvider()` - 8 edges
 5. `Components` - 8 edges
-6. `isValidThemePreset()` - 6 edges
-7. `applyThemePresetToDocument()` - 6 edges
-8. `authClient` - 6 edges
-9. `sendMessage()` - 5 edges
-10. `scripts` - 5 edges
+6. `useWallpaper()` - 7 edges
+7. `isValidThemePreset()` - 6 edges
+8. `applyThemePresetToDocument()` - 6 edges
+9. `authClient` - 6 edges
+10. `sendMessage()` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `ThemePresetPicker()` --calls--> `applyThemePresetToDocument()`  [EXTRACTED]
+  frontend/src/components/ThemePresetPicker.tsx → frontend/src/context/theme.ts
 - `WallpaperThumbProps` --references--> `Wallpaper`  [EXTRACTED]
   frontend/src/components/WallpaperPicker.tsx → frontend/src/data/wallpapers.ts
-- `WallpaperPicker()` --calls--> `useWallpaper()`  [EXTRACTED]
-  frontend/src/components/WallpaperPicker.tsx → frontend/src/context/wallpaper.ts
 - `WallpaperContextType` --references--> `Wallpaper`  [EXTRACTED]
   frontend/src/context/wallpaper.ts → frontend/src/data/wallpapers.ts
 - `AuthPage()` --calls--> `useWallpaper()`  [EXTRACTED]
@@ -66,12 +66,12 @@ Cohesion: 0.12
 Nodes (18): cron, checkAuth(), publicDir, startServer(), Auth, job, client, connectDB() (+10 more)
 
 ### Community 1 - "ThemeContext.tsx"
-Cohesion: 0.22
-Nodes (15): ThemePresetPicker(), ThemeToggle(), applyThemePresetToDocument(), isValidThemePreset(), PRESET_IDS, ThemeContext, ThemeContextType, useTheme() (+7 more)
+Cohesion: 0.27
+Nodes (12): applyThemePresetToDocument(), isValidThemePreset(), PRESET_IDS, ThemeContext, ThemeContextType, applyDomTheme(), getSystemTheme(), readStoredTheme() (+4 more)
 
 ### Community 2 - "WallpaperPicker.tsx"
-Cohesion: 0.20
-Nodes (14): WallpaperPicker(), WallpaperThumbProps, useWallpaper(), WallpaperContext, WallpaperContextType, readStoredWallpaperId(), WallpaperProvider(), WallpaperProviderProps (+6 more)
+Cohesion: 0.25
+Nodes (11): WallpaperThumbProps, WallpaperContext, WallpaperContextType, readStoredWallpaperId(), WallpaperProvider(), WallpaperProviderProps, frameStyleFromUrl(), getWallpaperById() (+3 more)
 
 ### Community 3 - "message.controller.ts"
 Cohesion: 0.15
@@ -106,8 +106,8 @@ Cohesion: 0.13
 Nodes (14): compilerOptions, allowImportingTsExtensions, allowJs, checkJs, esModuleInterop, module, moduleResolution, outDir (+6 more)
 
 ### Community 11 - "App.tsx"
-Cohesion: 0.19
-Nodes (10): App(), AppLogo(), LoginForm(), RegisterForm(), AuthRoute(), AuthRouteProps, ProtectedRoute(), ProtectedRouteProps (+2 more)
+Cohesion: 0.15
+Nodes (16): App(), AppLogo(), LoginForm(), RegisterForm(), AuthRoute(), AuthRouteProps, ProtectedRoute(), ProtectedRouteProps (+8 more)
 
 ### Community 15 - "AuthPage.tsx"
 Cohesion: 0.05
