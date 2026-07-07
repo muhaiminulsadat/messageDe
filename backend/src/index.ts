@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 // 1. Global Middlewares
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || process.env.FRONTEND_URL || "http://localhost:5173",
     credentials: true,
   }),
 );
@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 // 2. Authentication Handler (Better Auth)
-app.all("/api/auth/{*any}", toNodeHandler(auth));
+app.all("/api/auth/*splat", toNodeHandler(auth));
 
 // 3. API Routes
 app.use("/api/auth", authRoute);
@@ -37,7 +37,7 @@ app.get("/health", (req, res) => {
 const publicDir = path.join(process.cwd(), "public");
 if (fs.existsSync(publicDir)) {
   app.use(express.static(publicDir));
-  app.get("/{*any}", (req, res, next) => {
+  app.get("/*splat", (req, res, next) => {
     res.sendFile(path.join(publicDir, "index.html"), (err) => next(err));
   });
 }
