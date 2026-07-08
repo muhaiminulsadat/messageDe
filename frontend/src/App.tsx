@@ -6,8 +6,23 @@ import ChatPage from "./pages/ChatPage";
 import AuthPage from "./pages/AuthPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AuthRoute from "./components/AuthRoute";
+import {useAuthStore} from "./store/useAuthStore";
+import {useEffect} from "react";
 
 const App = () => {
+  const {checkAuth, isCheckingAuth} = useAuthStore();
+
+  useEffect(() => {
+    checkAuth();
+  }, [checkAuth]);
+
+  if (isCheckingAuth) {
+    return (
+      <div className="flex items-center justify-center h-screen w-screen">
+        <p>Loading...</p>
+      </div>
+    );
+  } 
   return (
     <ThemeProvider>
       <WallpaperProvider>

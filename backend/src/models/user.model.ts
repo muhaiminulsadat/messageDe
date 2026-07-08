@@ -1,9 +1,11 @@
 import mongoose, {Schema} from "mongoose";
 
 export interface IUser {
-  fullName: string;
+  name: string;
   email: string;
   emailVerified: boolean;
+  image?: string;
+  fullName?: string;
   profilePic?: string;
   password?: string;
   createdAt: Date;
@@ -12,9 +14,11 @@ export interface IUser {
 
 const UserSchema = new Schema<IUser>(
   {
-    fullName: {type: String, required: true},
+    name: {type: String, required: true},
     email: {type: String, required: true, unique: true},
     emailVerified: {type: Boolean, required: true},
+    image: {type: String},
+    fullName: {type: String},
     profilePic: {type: String},
     password: {type: String},
   },

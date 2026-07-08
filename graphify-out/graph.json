@@ -94,10 +94,20 @@
       "norm_label": "start"
     },
     {
+      "label": "db:seed",
+      "file_type": "code",
+      "source_file": "backend/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "backend_package_scripts_db_seed",
+      "community": 6,
+      "norm_label": "db:seed"
+    },
+    {
       "label": "keywords",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "backend_package_keywords",
       "community": 6,
@@ -107,7 +117,7 @@
       "label": "author",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "backend_package_author",
       "community": 6,
@@ -117,7 +127,7 @@
       "label": "license",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L13",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "backend_package_license",
       "community": 6,
@@ -127,7 +137,7 @@
       "label": "type",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "backend_package_type",
       "community": 6,
@@ -137,77 +147,77 @@
       "label": "dependencies",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "backend_package_dependencies",
-      "community": 9,
+      "community": 3,
       "norm_label": "dependencies"
     },
     {
       "label": "@better-auth/mongo-adapter",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "backend_package_dependencies_better_auth_mongo_adapter",
-      "community": 9,
+      "community": 3,
       "norm_label": "@better-auth/mongo-adapter"
     },
     {
       "label": "@imagekit/nodejs",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "backend_package_dependencies_imagekit_nodejs",
-      "community": 9,
+      "community": 3,
       "norm_label": "@imagekit/nodejs"
     },
     {
       "label": "@types/express",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "backend_package_dependencies_types_express",
-      "community": 9,
+      "community": 3,
       "norm_label": "@types/express"
     },
     {
       "label": "@types/node",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "backend_package_dependencies_types_node",
-      "community": 9,
+      "community": 3,
       "norm_label": "@types/node"
     },
     {
       "label": "better-auth",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L20",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "backend_package_dependencies_better_auth",
-      "community": 9,
+      "community": 3,
       "norm_label": "better-auth"
     },
     {
       "label": "cors",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L21",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "backend_package_dependencies_cors",
-      "community": 9,
+      "community": 3,
       "norm_label": "cors"
     },
     {
       "label": "cron",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "backend_package_dependencies_cron",
       "community": 0,
@@ -217,77 +227,77 @@
       "label": "dotenv",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "backend_package_dependencies_dotenv",
-      "community": 9,
+      "community": 3,
       "norm_label": "dotenv"
     },
     {
       "label": "express",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L24",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "backend_package_dependencies_express",
-      "community": 9,
+      "community": 3,
       "norm_label": "express"
     },
     {
       "label": "mongodb",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "backend_package_dependencies_mongodb",
-      "community": 9,
+      "community": 3,
       "norm_label": "mongodb"
     },
     {
       "label": "mongoose",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "backend_package_dependencies_mongoose",
-      "community": 9,
+      "community": 3,
       "norm_label": "mongoose"
     },
     {
       "label": "multer",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "backend_package_dependencies_multer",
-      "community": 9,
+      "community": 3,
       "norm_label": "multer"
     },
     {
       "label": "nodemon",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "backend_package_dependencies_nodemon",
-      "community": 9,
+      "community": 3,
       "norm_label": "nodemon"
     },
     {
       "label": "socket.io",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "backend_package_dependencies_socket_io",
-      "community": 9,
+      "community": 3,
       "norm_label": "socket.io"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L31",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "backend_package_devdependencies",
       "community": 6,
@@ -297,7 +307,7 @@
       "label": "@types/cors",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L32",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "backend_package_devdependencies_types_cors",
       "community": 6,
@@ -307,7 +317,7 @@
       "label": "@types/multer",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "backend_package_devdependencies_types_multer",
       "community": 6,
@@ -317,7 +327,7 @@
       "label": "tsx",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "backend_package_devdependencies_tsx",
       "community": 6,
@@ -327,7 +337,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "backend/package.json",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "backend_package_devdependencies_typescript",
       "community": 6,
@@ -360,7 +370,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_controllers_message_controller",
-      "community": 3,
+      "community": 1,
       "norm_label": "message.controller.ts"
     },
     {
@@ -370,7 +380,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "backend_src_controllers_message_controller_getusersforsidebar",
-      "community": 3,
+      "community": 1,
       "norm_label": "getusersforsidebar()"
     },
     {
@@ -380,7 +390,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "backend_src_controllers_message_controller_getconversationsforsidebar",
-      "community": 3,
+      "community": 1,
       "norm_label": "getconversationsforsidebar()"
     },
     {
@@ -390,7 +400,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "backend_src_controllers_message_controller_getmessages",
-      "community": 3,
+      "community": 1,
       "norm_label": "getmessages()"
     },
     {
@@ -400,7 +410,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "backend_src_controllers_message_controller_sendmessage",
-      "community": 3,
+      "community": 1,
       "norm_label": "sendmessage()"
     },
     {
@@ -417,7 +427,7 @@
       "label": "publicDir",
       "file_type": "code",
       "source_file": "backend/src/index.ts",
-      "source_location": "L40",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "backend_src_index_publicdir",
       "community": 0,
@@ -427,7 +437,7 @@
       "label": "startServer()",
       "file_type": "code",
       "source_file": "backend/src/index.ts",
-      "source_location": "L49",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "backend_src_index_startserver",
       "community": 0,
@@ -520,7 +530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit",
-      "community": 3,
+      "community": 1,
       "norm_label": "imagekit.ts"
     },
     {
@@ -530,7 +540,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit_imagekit",
-      "community": 3,
+      "community": 1,
       "norm_label": "imagekit"
     },
     {
@@ -540,7 +550,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit_hasimagekitconfig",
-      "community": 3,
+      "community": 1,
       "norm_label": "hasimagekitconfig()"
     },
     {
@@ -550,7 +560,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit_createfilename",
-      "community": 3,
+      "community": 1,
       "norm_label": "createfilename()"
     },
     {
@@ -560,7 +570,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit_uploadedfile",
-      "community": 3,
+      "community": 1,
       "norm_label": "uploadedfile"
     },
     {
@@ -570,7 +580,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "backend_src_lib_imagekit_uploadchatmedia",
-      "community": 3,
+      "community": 1,
       "norm_label": "uploadchatmedia()"
     },
     {
@@ -610,7 +620,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "backend_src_lib_socket_io",
-      "community": 9,
+      "community": 3,
       "norm_label": "io"
     },
     {
@@ -630,7 +640,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "backend_src_lib_socket_getreceiversocketid",
-      "community": 3,
+      "community": 1,
       "norm_label": "getreceiversocketid()"
     },
     {
@@ -690,7 +700,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_middleware_upload_middleware",
-      "community": 3,
+      "community": 1,
       "norm_label": "upload.middleware.ts"
     },
     {
@@ -700,7 +710,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "backend_src_middleware_upload_middleware_upload",
-      "community": 3,
+      "community": 1,
       "norm_label": "upload"
     },
     {
@@ -710,7 +720,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_models_message_model",
-      "community": 3,
+      "community": 1,
       "norm_label": "message.model.ts"
     },
     {
@@ -720,7 +730,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "backend_src_models_message_model_imessage",
-      "community": 3,
+      "community": 1,
       "norm_label": "imessage"
     },
     {
@@ -730,7 +740,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "backend_src_models_message_model_messageschema",
-      "community": 3,
+      "community": 1,
       "norm_label": "messageschema"
     },
     {
@@ -740,7 +750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_models_user_model",
-      "community": 3,
+      "community": 1,
       "norm_label": "user.model.ts"
     },
     {
@@ -750,17 +760,17 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "backend_src_models_user_model_iuser",
-      "community": 3,
+      "community": 1,
       "norm_label": "iuser"
     },
     {
       "label": "UserSchema",
       "file_type": "code",
       "source_file": "backend/src/models/user.model.ts",
-      "source_location": "L13",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "backend_src_models_user_model_userschema",
-      "community": 3,
+      "community": 1,
       "norm_label": "userschema"
     },
     {
@@ -790,7 +800,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_routes_message_route",
-      "community": 3,
+      "community": 1,
       "norm_label": "message.route.ts"
     },
     {
@@ -800,8 +810,38 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "backend_src_routes_message_route_router",
-      "community": 0,
+      "community": 1,
       "norm_label": "router"
+    },
+    {
+      "label": "user.seed.ts",
+      "file_type": "code",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_src_seeds_user_seed",
+      "community": 0,
+      "norm_label": "user.seed.ts"
+    },
+    {
+      "label": "seedUsers",
+      "file_type": "code",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "backend_src_seeds_user_seed_seedusers",
+      "community": 0,
+      "norm_label": "seedusers"
+    },
+    {
+      "label": "seedDatabase()",
+      "file_type": "code",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "backend_src_seeds_user_seed_seeddatabase",
+      "community": 0,
+      "norm_label": "seeddatabase()"
     },
     {
       "label": "tsconfig.json",
@@ -1104,20 +1144,40 @@
       "norm_label": "@tailwindcss/vite"
     },
     {
-      "label": "better-auth",
+      "label": "axios",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_axios",
+      "community": 20,
+      "norm_label": "axios"
+    },
+    {
+      "label": "better-auth",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "frontend_package_dependencies_better_auth",
       "community": 4,
       "norm_label": "better-auth"
     },
     {
+      "label": "install",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_install",
+      "community": 4,
+      "norm_label": "install"
+    },
+    {
       "label": "lucide-react",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L17",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "frontend_package_dependencies_lucide_react",
       "community": 4,
@@ -1127,7 +1187,7 @@
       "label": "react",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L18",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "frontend_package_dependencies_react",
       "community": 4,
@@ -1137,7 +1197,7 @@
       "label": "react-dom",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L19",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "frontend_package_dependencies_react_dom",
       "community": 4,
@@ -1147,7 +1207,7 @@
       "label": "react-hot-toast",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L20",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "frontend_package_dependencies_react_hot_toast",
       "community": 4,
@@ -1157,27 +1217,47 @@
       "label": "react-router",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L21",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "frontend_package_dependencies_react_router",
       "community": 4,
       "norm_label": "react-router"
     },
     {
+      "label": "socket.io-client",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_socket_io_client",
+      "community": 4,
+      "norm_label": "socket.io-client"
+    },
+    {
       "label": "tailwindcss",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L22",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "frontend_package_dependencies_tailwindcss",
       "community": 4,
       "norm_label": "tailwindcss"
     },
     {
+      "label": "zustand",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_zustand",
+      "community": 4,
+      "norm_label": "zustand"
+    },
+    {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L24",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "frontend_package_devdependencies",
       "community": 7,
@@ -1187,7 +1267,7 @@
       "label": "@babel/core",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L25",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_babel_core",
       "community": 7,
@@ -1197,7 +1277,7 @@
       "label": "@eslint/js",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L26",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_eslint_js",
       "community": 7,
@@ -1207,7 +1287,7 @@
       "label": "@rolldown/plugin-babel",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L27",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_rolldown_plugin_babel",
       "community": 7,
@@ -1217,7 +1297,7 @@
       "label": "@types/babel__core",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L28",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_types_babel_core",
       "community": 7,
@@ -1227,7 +1307,7 @@
       "label": "@types/node",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L29",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_types_node",
       "community": 7,
@@ -1237,7 +1317,7 @@
       "label": "@types/react",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L30",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_types_react",
       "community": 7,
@@ -1247,7 +1327,7 @@
       "label": "@types/react-dom",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_types_react_dom",
       "community": 7,
@@ -1257,7 +1337,7 @@
       "label": "@vitejs/plugin-react",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L32",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_vitejs_plugin_react",
       "community": 7,
@@ -1267,7 +1347,7 @@
       "label": "babel-plugin-react-compiler",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L33",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_babel_plugin_react_compiler",
       "community": 7,
@@ -1277,7 +1357,7 @@
       "label": "eslint",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L34",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_eslint",
       "community": 7,
@@ -1287,7 +1367,7 @@
       "label": "eslint-plugin-react-hooks",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L35",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_eslint_plugin_react_hooks",
       "community": 7,
@@ -1297,7 +1377,7 @@
       "label": "eslint-plugin-react-refresh",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L36",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_eslint_plugin_react_refresh",
       "community": 7,
@@ -1307,7 +1387,7 @@
       "label": "globals",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L37",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_globals",
       "community": 7,
@@ -1317,7 +1397,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L38",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_typescript",
       "community": 7,
@@ -1327,7 +1407,7 @@
       "label": "typescript-eslint",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L39",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_typescript_eslint",
       "community": 7,
@@ -1337,7 +1417,7 @@
       "label": "vite",
       "file_type": "code",
       "source_file": "frontend/package.json",
-      "source_location": "L40",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "frontend_package_devdependencies_vite",
       "community": 7,
@@ -1357,7 +1437,7 @@
       "label": "App()",
       "file_type": "code",
       "source_file": "frontend/src/App.tsx",
-      "source_location": "L10",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "frontend_src_app_app",
       "community": 11,
@@ -1370,7 +1450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_components_applogo",
-      "community": 11,
+      "community": 19,
       "norm_label": "applogo.tsx"
     },
     {
@@ -1380,7 +1460,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "frontend_src_components_applogo_applogo",
-      "community": 11,
+      "community": 19,
       "norm_label": "applogo()"
     },
     {
@@ -1450,7 +1530,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_components_themepresetpicker",
-      "community": 1,
+      "community": 19,
       "norm_label": "themepresetpicker.tsx"
     },
     {
@@ -1460,7 +1540,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "frontend_src_components_themepresetpicker_themepresetpicker",
-      "community": 11,
+      "community": 19,
       "norm_label": "themepresetpicker()"
     },
     {
@@ -1470,7 +1550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_components_themetoggle",
-      "community": 11,
+      "community": 19,
       "norm_label": "themetoggle.tsx"
     },
     {
@@ -1480,7 +1560,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "frontend_src_components_themetoggle_themetoggle",
-      "community": 11,
+      "community": 19,
       "norm_label": "themetoggle()"
     },
     {
@@ -1520,7 +1600,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "frontend_src_components_wallpaperpicker_wallpaperpicker",
-      "community": 11,
+      "community": 2,
       "norm_label": "wallpaperpicker()"
     },
     {
@@ -1564,13 +1644,293 @@
       "norm_label": "registerform()"
     },
     {
+      "label": "AvatarWithOnlineIndicator.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/AvatarWithOnlineIndicator.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_avatarwithonlineindicator",
+      "community": 9,
+      "norm_label": "avatarwithonlineindicator.tsx"
+    },
+    {
+      "label": "AvatarWithOnlineIndicatorProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/AvatarWithOnlineIndicator.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicatorprops",
+      "community": 9,
+      "norm_label": "avatarwithonlineindicatorprops"
+    },
+    {
+      "label": "AvatarWithOnlineIndicator()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/AvatarWithOnlineIndicator.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicator",
+      "community": 9,
+      "norm_label": "avatarwithonlineindicator()"
+    },
+    {
+      "label": "ChatComposer.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatcomposer",
+      "community": 20,
+      "norm_label": "chatcomposer.tsx"
+    },
+    {
+      "label": "ChatComposer()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "community": 20,
+      "norm_label": "chatcomposer()"
+    },
+    {
+      "label": "ChatHeader.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatheader",
+      "community": 19,
+      "norm_label": "chatheader.tsx"
+    },
+    {
+      "label": "ChatHeader()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatheader_chatheader",
+      "community": 20,
+      "norm_label": "chatheader()"
+    },
+    {
+      "label": "ChatSidebar.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatsidebar",
+      "community": 20,
+      "norm_label": "chatsidebar.tsx"
+    },
+    {
+      "label": "MappedUser",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatsidebar_mappeduser",
+      "community": 20,
+      "norm_label": "mappeduser"
+    },
+    {
+      "label": "mapUserForList()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatsidebar_mapuserforlist",
+      "community": 20,
+      "norm_label": "mapuserforlist()"
+    },
+    {
+      "label": "UserAvatar()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatsidebar_useravatar",
+      "community": 20,
+      "norm_label": "useravatar()"
+    },
+    {
+      "label": "ChatSidebar()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "community": 20,
+      "norm_label": "chatsidebar()"
+    },
+    {
+      "label": "ConversationRow.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_conversationrow",
+      "community": 9,
+      "norm_label": "conversationrow.tsx"
+    },
+    {
+      "label": "ConversationUser",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_conversationrow_conversationuser",
+      "community": 9,
+      "norm_label": "conversationuser"
+    },
+    {
+      "label": "ConversationRowProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_conversationrow_conversationrowprops",
+      "community": 9,
+      "norm_label": "conversationrowprops"
+    },
+    {
+      "label": "ConversationRow()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_conversationrow_conversationrow",
+      "community": 9,
+      "norm_label": "conversationrow()"
+    },
+    {
+      "label": "MessageBubble.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagebubble",
+      "community": 21,
+      "norm_label": "messagebubble.tsx"
+    },
+    {
+      "label": "MappedMessage",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagebubble_mappedmessage",
+      "community": 21,
+      "norm_label": "mappedmessage"
+    },
+    {
+      "label": "MessageBubbleProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagebubble_messagebubbleprops",
+      "community": 21,
+      "norm_label": "messagebubbleprops"
+    },
+    {
+      "label": "MessageBubble()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagebubble_messagebubble",
+      "community": 21,
+      "norm_label": "messagebubble()"
+    },
+    {
+      "label": "MessageList.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagelist",
+      "community": 20,
+      "norm_label": "messagelist.tsx"
+    },
+    {
+      "label": "MessageList()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagelist_messagelist",
+      "community": 20,
+      "norm_label": "messagelist()"
+    },
+    {
+      "label": "MessageVideo.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagevideo",
+      "community": 21,
+      "norm_label": "messagevideo.tsx"
+    },
+    {
+      "label": "buildPosterUrl()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagevideo_buildposterurl",
+      "community": 21,
+      "norm_label": "buildposterurl()"
+    },
+    {
+      "label": "MessageVideoProps",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagevideo_messagevideoprops",
+      "community": 21,
+      "norm_label": "messagevideoprops"
+    },
+    {
+      "label": "MessageVideo()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_messagevideo_messagevideo",
+      "community": 21,
+      "norm_label": "messagevideo()"
+    },
+    {
+      "label": "NoConversationPlaceholder.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/NoConversationPlaceholder.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_noconversationplaceholder",
+      "community": 20,
+      "norm_label": "noconversationplaceholder.tsx"
+    },
+    {
+      "label": "NoConversationPlaceholder()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/NoConversationPlaceholder.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_src_components_chat_noconversationplaceholder_noconversationplaceholder",
+      "community": 20,
+      "norm_label": "noconversationplaceholder()"
+    },
+    {
       "label": "ThemeContext.tsx",
       "file_type": "code",
       "source_file": "frontend/src/context/ThemeContext.tsx",
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext",
-      "community": 1,
+      "community": 19,
       "norm_label": "themecontext.tsx"
     },
     {
@@ -1580,7 +1940,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_getsystemtheme",
-      "community": 1,
+      "community": 19,
       "norm_label": "getsystemtheme()"
     },
     {
@@ -1590,7 +1950,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_readstoredtheme",
-      "community": 1,
+      "community": 19,
       "norm_label": "readstoredtheme()"
     },
     {
@@ -1600,7 +1960,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_applydomtheme",
-      "community": 1,
+      "community": 19,
       "norm_label": "applydomtheme()"
     },
     {
@@ -1610,7 +1970,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_readstoredthemepreset",
-      "community": 1,
+      "community": 19,
       "norm_label": "readstoredthemepreset()"
     },
     {
@@ -1620,7 +1980,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_themeproviderprops",
-      "community": 1,
+      "community": 19,
       "norm_label": "themeproviderprops"
     },
     {
@@ -1630,7 +1990,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "frontend_src_context_themecontext_themeprovider",
-      "community": 1,
+      "community": 19,
       "norm_label": "themeprovider()"
     },
     {
@@ -1680,7 +2040,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_context_theme",
-      "community": 1,
+      "community": 19,
       "norm_label": "theme.ts"
     },
     {
@@ -1690,7 +2050,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "frontend_src_context_theme_themecontexttype",
-      "community": 1,
+      "community": 19,
       "norm_label": "themecontexttype"
     },
     {
@@ -1700,7 +2060,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "frontend_src_context_theme_themecontext",
-      "community": 1,
+      "community": 19,
       "norm_label": "themecontext"
     },
     {
@@ -1710,7 +2070,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "frontend_src_context_theme_preset_ids",
-      "community": 1,
+      "community": 19,
       "norm_label": "preset_ids"
     },
     {
@@ -1720,7 +2080,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "frontend_src_context_theme_isvalidthemepreset",
-      "community": 1,
+      "community": 19,
       "norm_label": "isvalidthemepreset()"
     },
     {
@@ -1730,7 +2090,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "frontend_src_context_theme_applythemepresettodocument",
-      "community": 1,
+      "community": 19,
       "norm_label": "applythemepresettodocument()"
     },
     {
@@ -1740,7 +2100,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "frontend_src_context_theme_usetheme",
-      "community": 11,
+      "community": 19,
       "norm_label": "usetheme()"
     },
     {
@@ -1780,7 +2140,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "frontend_src_context_wallpaper_usewallpaper",
-      "community": 11,
+      "community": 2,
       "norm_label": "usewallpaper()"
     },
     {
@@ -1790,7 +2150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_data_herouithemepresets",
-      "community": 1,
+      "community": 19,
       "norm_label": "herouithemepresets.ts"
     },
     {
@@ -1800,7 +2160,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "frontend_src_data_herouithemepresets_hero_ui_theme_presets",
-      "community": 1,
+      "community": 19,
       "norm_label": "hero_ui_theme_presets"
     },
     {
@@ -1864,6 +2224,146 @@
       "norm_label": "getwallpaperbyid()"
     },
     {
+      "label": "useKeyboardSound.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useKeyboardSound.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usekeyboardsound",
+      "community": 20,
+      "norm_label": "usekeyboardsound.ts"
+    },
+    {
+      "label": "keyStrokeSounds",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useKeyboardSound.ts",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usekeyboardsound_keystrokesounds",
+      "community": 20,
+      "norm_label": "keystrokesounds"
+    },
+    {
+      "label": "useKeyboardSound()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useKeyboardSound.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usekeyboardsound_usekeyboardsound",
+      "community": 20,
+      "norm_label": "usekeyboardsound()"
+    },
+    {
+      "label": "useMediaQuery.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useMediaQuery.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usemediaquery",
+      "community": 20,
+      "norm_label": "usemediaquery.ts"
+    },
+    {
+      "label": "useMediaQuery()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useMediaQuery.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usemediaquery_usemediaquery",
+      "community": 20,
+      "norm_label": "usemediaquery()"
+    },
+    {
+      "label": "useScrollToBottom.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useScrollToBottom.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usescrolltobottom",
+      "community": 20,
+      "norm_label": "usescrolltobottom.ts"
+    },
+    {
+      "label": "useScrollToBottom()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useScrollToBottom.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_usescrolltobottom_usescrolltobottom",
+      "community": 20,
+      "norm_label": "usescrolltobottom()"
+    },
+    {
+      "label": "useSelectedConversation.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation",
+      "community": 20,
+      "norm_label": "useselectedconversation.ts"
+    },
+    {
+      "label": "getInitials()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_getinitials",
+      "community": 20,
+      "norm_label": "getinitials()"
+    },
+    {
+      "label": "MapUserToConversationParams",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_mapusertoconversationparams",
+      "community": 1,
+      "norm_label": "mapusertoconversationparams"
+    },
+    {
+      "label": "MappedMessage",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_mappedmessage",
+      "community": 20,
+      "norm_label": "mappedmessage"
+    },
+    {
+      "label": "MappedConversation",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_mappedconversation",
+      "community": 20,
+      "norm_label": "mappedconversation"
+    },
+    {
+      "label": "mapUserToConversation()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_mapusertoconversation",
+      "community": 20,
+      "norm_label": "mapusertoconversation()"
+    },
+    {
+      "label": "useSelectedConversation()",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "community": 20,
+      "norm_label": "useselectedconversation()"
+    },
+    {
       "label": "auth-client.ts",
       "file_type": "code",
       "source_file": "frontend/src/lib/auth-client.ts",
@@ -1884,6 +2384,76 @@
       "norm_label": "authclient"
     },
     {
+      "label": "axios.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/axios.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_lib_axios",
+      "community": 20,
+      "norm_label": "axios.ts"
+    },
+    {
+      "label": "axiosInstance",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/axios.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_src_lib_axios_axiosinstance",
+      "community": 20,
+      "norm_label": "axiosinstance"
+    },
+    {
+      "label": "imagekit.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_lib_imagekit",
+      "community": 21,
+      "norm_label": "imagekit.ts"
+    },
+    {
+      "label": "isImageKitUrl()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_src_lib_imagekit_isimagekiturl",
+      "community": 21,
+      "norm_label": "isimagekiturl()"
+    },
+    {
+      "label": "withTransform()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_src_lib_imagekit_withtransform",
+      "community": 21,
+      "norm_label": "withtransform()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/utils.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_lib_utils",
+      "community": 20,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "formatMessageTime()",
+      "file_type": "code",
+      "source_file": "frontend/src/lib/utils.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_lib_utils_formatmessagetime",
+      "community": 20,
+      "norm_label": "formatmessagetime()"
+    },
+    {
       "label": "main.tsx",
       "file_type": "code",
       "source_file": "frontend/src/main.tsx",
@@ -1900,7 +2470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_pages_authpage",
-      "community": 11,
+      "community": 19,
       "norm_label": "authpage.tsx"
     },
     {
@@ -1910,7 +2480,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "frontend_src_pages_authpage_authpage",
-      "community": 11,
+      "community": 2,
       "norm_label": "authpage()"
     },
     {
@@ -1920,18 +2490,148 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "frontend_src_pages_chatpage",
-      "community": 11,
+      "community": 20,
       "norm_label": "chatpage.tsx"
     },
     {
       "label": "ChatPage()",
       "file_type": "code",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L12",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "frontend_src_pages_chatpage_chatpage",
-      "community": 11,
+      "community": 20,
       "norm_label": "chatpage()"
+    },
+    {
+      "label": "useAuthStore.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_store_useauthstore",
+      "community": 20,
+      "norm_label": "useauthstore.ts"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_src_store_useauthstore_user",
+      "community": 1,
+      "norm_label": "user"
+    },
+    {
+      "label": "AuthResponse",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_src_store_useauthstore_authresponse",
+      "community": 20,
+      "norm_label": "authresponse"
+    },
+    {
+      "label": "AuthState",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_src_store_useauthstore_authstate",
+      "community": 20,
+      "norm_label": "authstate"
+    },
+    {
+      "label": "useAuthStore",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "frontend_src_store_useauthstore_useauthstore",
+      "community": 11,
+      "norm_label": "useauthstore"
+    },
+    {
+      "label": "useChatStore.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore",
+      "community": 20,
+      "norm_label": "usechatstore.ts"
+    },
+    {
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_message",
+      "community": 1,
+      "norm_label": "message"
+    },
+    {
+      "label": "MessagePayload",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_messagepayload",
+      "community": 20,
+      "norm_label": "messagepayload"
+    },
+    {
+      "label": "ChatState",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_chatstate",
+      "community": 1,
+      "norm_label": "chatstate"
+    },
+    {
+      "label": "PersistedSlice",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_persistedslice",
+      "community": 20,
+      "norm_label": "persistedslice"
+    },
+    {
+      "label": "persistConfig",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_persistconfig",
+      "community": 20,
+      "norm_label": "persistconfig"
+    },
+    {
+      "label": "chatStoreCreator()",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_chatstorecreator",
+      "community": 20,
+      "norm_label": "chatstorecreator()"
+    },
+    {
+      "label": "useChatStore",
+      "file_type": "code",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L203",
+      "_origin": "ast",
+      "id": "frontend_src_store_usechatstore_usechatstore",
+      "community": 20,
+      "norm_label": "usechatstore"
     },
     {
       "label": "tsconfig.app.json",
@@ -2809,7 +3509,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_author",
@@ -2819,7 +3519,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_dependencies",
@@ -2839,7 +3539,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_devdependencies",
@@ -2849,7 +3549,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_keywords",
@@ -2859,7 +3559,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_license",
@@ -2899,7 +3599,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "backend_package",
       "target": "backend_package_type",
@@ -2929,6 +3629,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_package_scripts",
+      "target": "backend_package_scripts_db_seed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/package.json",
       "source_location": "L7",
       "weight": 1.0,
       "source": "backend_package_scripts",
@@ -2949,7 +3659,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_better_auth",
@@ -2959,7 +3669,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_better_auth_mongo_adapter",
@@ -2969,7 +3679,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_cors",
@@ -2979,7 +3689,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_cron",
@@ -2989,7 +3699,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_dotenv",
@@ -2999,7 +3709,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_express",
@@ -3009,7 +3719,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_imagekit_nodejs",
@@ -3019,7 +3729,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_mongodb",
@@ -3029,7 +3739,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_mongoose",
@@ -3039,7 +3749,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_multer",
@@ -3049,7 +3759,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_nodemon",
@@ -3059,7 +3769,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_socket_io",
@@ -3069,7 +3779,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_types_express",
@@ -3079,7 +3789,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "backend_package_dependencies",
       "target": "backend_package_dependencies_types_node",
@@ -3089,7 +3799,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0,
       "context": "import",
       "source": "backend_package_dependencies_cron",
@@ -3100,7 +3810,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
       "context": "import",
       "source": "backend_package_dependencies_socket_io",
@@ -3111,7 +3821,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "backend_package_devdependencies",
       "target": "backend_package_devdependencies_tsx",
@@ -3121,7 +3831,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "backend_package_devdependencies",
       "target": "backend_package_devdependencies_types_cors",
@@ -3131,7 +3841,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "backend_package_devdependencies",
       "target": "backend_package_devdependencies_types_multer",
@@ -3141,7 +3851,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/package.json",
-      "source_location": "L35",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "backend_package_devdependencies",
       "target": "backend_package_devdependencies_typescript",
@@ -3319,6 +4029,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/controllers/message.controller.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "backend_src_controllers_message_controller_getusersforsidebar",
+      "target": "frontend_src_store_useauthstore_user"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3330,6 +4051,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/controllers/message.controller.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "backend_src_controllers_message_controller_getconversationsforsidebar",
+      "target": "frontend_src_store_usechatstore_message"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3339,6 +4071,17 @@
       "source": "backend_src_routes_message_route",
       "target": "backend_src_controllers_message_controller_getconversationsforsidebar",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/controllers/message.controller.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "backend_src_controllers_message_controller_getmessages",
+      "target": "frontend_src_store_usechatstore_message"
     },
     {
       "relation": "imports",
@@ -3385,6 +4128,28 @@
       "target": "backend_src_lib_socket_getreceiversocketid"
     },
     {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/controllers/message.controller.ts",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "backend_src_controllers_message_controller_sendmessage",
+      "target": "frontend_src_store_useauthstore_user"
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/controllers/message.controller.ts",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "backend_src_controllers_message_controller_sendmessage",
+      "target": "frontend_src_store_usechatstore_message"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3399,7 +4164,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L40",
+      "source_location": "L42",
       "weight": 1.0,
       "source": "backend_src_index",
       "target": "backend_src_index_publicdir",
@@ -3409,7 +4174,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L49",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "backend_src_index",
       "target": "backend_src_index_startserver",
@@ -3563,7 +4328,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/index.ts",
-      "source_location": "L51",
+      "source_location": "L53",
       "weight": 1.0,
       "source": "backend_src_index_startserver",
       "target": "backend_src_lib_db_connectdb",
@@ -3624,6 +4389,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_lib_auth",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3631,6 +4407,17 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "backend_src_middleware_auth_middleware",
+      "target": "backend_src_lib_auth_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
       "target": "backend_src_lib_auth_auth",
       "confidence_score": 1.0
     },
@@ -3672,6 +4459,39 @@
       "weight": 1.0,
       "source": "backend_src_lib_db",
       "target": "backend_src_lib_db_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_lib_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_lib_db_connectdb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed_seeddatabase",
+      "target": "backend_src_lib_db_connectdb",
       "confidence_score": 1.0
     },
     {
@@ -3935,10 +4755,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/models/user.model.ts",
-      "source_location": "L13",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "backend_src_models_user_model",
       "target": "backend_src_models_user_model_userschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_models_user_model",
       "confidence_score": 1.0
     },
     {
@@ -3960,6 +4791,37 @@
       "source": "backend_src_routes_message_route",
       "target": "backend_src_routes_message_route_router",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_seeds_user_seed_seeddatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed",
+      "target": "backend_src_seeds_user_seed_seedusers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/seeds/user.seed.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "backend_src_seeds_user_seed_seeddatabase",
+      "target": "frontend_src_store_useauthstore_user"
     },
     {
       "relation": "contains",
@@ -4115,7 +4977,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
-      "source_location": "L24",
+      "source_location": "L28",
       "weight": 1.0,
       "source": "frontend_package",
       "target": "frontend_package_devdependencies",
@@ -4218,6 +5080,16 @@
       "source_location": "L16",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
       "target": "frontend_package_dependencies_better_auth",
       "confidence_score": 1.0
     },
@@ -4245,20 +5117,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_lucide_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
       "source_location": "L18",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react",
+      "target": "frontend_package_dependencies_install",
       "confidence_score": 1.0
     },
     {
@@ -4268,7 +5130,7 @@
       "source_location": "L19",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_dom",
+      "target": "frontend_package_dependencies_lucide_react",
       "confidence_score": 1.0
     },
     {
@@ -4278,7 +5140,7 @@
       "source_location": "L20",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_hot_toast",
+      "target": "frontend_package_dependencies_react",
       "confidence_score": 1.0
     },
     {
@@ -4288,7 +5150,7 @@
       "source_location": "L21",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_router",
+      "target": "frontend_package_dependencies_react_dom",
       "confidence_score": 1.0
     },
     {
@@ -4296,6 +5158,36 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
       "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_hot_toast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_socket_io_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "frontend_package_dependencies",
       "target": "frontend_package_dependencies_tailwindcss",
@@ -4315,90 +5207,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_babel_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_babel_plugin_react_compiler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
       "source_location": "L26",
       "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_js",
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_zustand",
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
-      "source_location": "L35",
+      "source_location": "L16",
       "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_globals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_rolldown_plugin_babel",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_babel_core",
+      "context": "import",
+      "source": "frontend_package_dependencies_axios",
+      "target": "frontend_src_lib_axios",
       "confidence_score": 1.0
     },
     {
@@ -4408,27 +5231,17 @@
       "source_location": "L29",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_node",
+      "target": "frontend_package_devdependencies_babel_core",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/package.json",
-      "source_location": "L30",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/package.json",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_react_dom",
+      "target": "frontend_package_devdependencies_babel_plugin_react_compiler",
       "confidence_score": 1.0
     },
     {
@@ -4438,7 +5251,17 @@
       "source_location": "L38",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_typescript",
+      "target": "frontend_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_js",
       "confidence_score": 1.0
     },
     {
@@ -4448,7 +5271,7 @@
       "source_location": "L39",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_typescript_eslint",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
       "confidence_score": 1.0
     },
     {
@@ -4458,7 +5281,27 @@
       "source_location": "L40",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_vite",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_rolldown_plugin_babel",
       "confidence_score": 1.0
     },
     {
@@ -4468,6 +5311,76 @@
       "source_location": "L32",
       "weight": 1.0,
       "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_babel_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
       "target": "frontend_package_devdependencies_vitejs_plugin_react",
       "confidence_score": 1.0
     },
@@ -4475,7 +5388,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/App.tsx",
-      "source_location": "L10",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "frontend_src_app",
       "target": "frontend_src_app_app",
@@ -4606,11 +5519,44 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app",
+      "target": "frontend_src_store_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_app",
+      "target": "frontend_src_store_useauthstore_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "frontend/src/main.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "source": "frontend_src_main",
       "target": "frontend_src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_src_app_app",
+      "target": "frontend_src_store_useauthstore_useauthstore",
       "confidence_score": 1.0
     },
     {
@@ -4638,10 +5584,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/AuthPage.tsx",
-      "source_location": "L8",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "frontend_src_pages_authpage",
+      "source": "frontend_src_components_chat_chatheader",
       "target": "frontend_src_components_applogo",
       "confidence_score": 1.0
     },
@@ -4649,11 +5595,44 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L6",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L7",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
+      "source": "frontend_src_components_chat_chatsidebar",
       "target": "frontend_src_components_applogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/AuthPage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_authpage",
+      "target": "frontend_src_components_applogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_applogo_applogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_applogo_applogo",
       "confidence_score": 1.0
     },
     {
@@ -4664,17 +5643,6 @@
       "source_location": "L8",
       "weight": 1.0,
       "source": "frontend_src_pages_authpage",
-      "target": "frontend_src_components_applogo_applogo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_components_applogo_applogo",
       "confidence_score": 1.0
     },
@@ -4763,6 +5731,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_themepresetpicker",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/components/ThemePresetPicker.tsx",
@@ -4839,14 +5818,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L9",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_themepresetpicker",
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_themepresetpicker_themepresetpicker",
       "confidence_score": 1.0
     },
     {
@@ -4883,14 +5862,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L9",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L8",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_themepresetpicker_themepresetpicker",
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_themetoggle",
       "confidence_score": 1.0
     },
     {
@@ -4937,14 +5916,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_themetoggle",
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_themetoggle_themetoggle",
       "confidence_score": 1.0
     },
     {
@@ -4970,14 +5949,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L8",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L9",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_themetoggle_themetoggle",
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_wallpaperpicker",
       "confidence_score": 1.0
     },
     {
@@ -5077,17 +6056,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_wallpaperpicker",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "context": "field",
       "confidence": "EXTRACTED",
@@ -5096,6 +6064,17 @@
       "weight": 1.0,
       "source": "frontend_src_components_wallpaperpicker_wallpaperthumbprops",
       "target": "frontend_src_data_wallpapers_wallpaper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_wallpaperpicker_wallpaperpicker",
       "confidence_score": 1.0
     },
     {
@@ -5108,17 +6087,6 @@
       "weight": 1.0,
       "source": "frontend_src_components_wallpaperpicker_wallpaperpicker",
       "target": "frontend_src_context_wallpaper_usewallpaper"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_components_wallpaperpicker_wallpaperpicker",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5226,6 +6194,911 @@
       "weight": 1.0,
       "source": "frontend_src_pages_authpage",
       "target": "frontend_src_components_auth_registerform_registerform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/AvatarWithOnlineIndicator.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_avatarwithonlineindicator",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/AvatarWithOnlineIndicator.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_avatarwithonlineindicator",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicatorprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_conversationrow",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_conversationrow",
+      "target": "frontend_src_components_chat_avatarwithonlineindicator_avatarwithonlineindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_hooks_usekeyboardsound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_hooks_usekeyboardsound_usekeyboardsound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_hooks_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_store_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_chatcomposer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "target": "frontend_src_hooks_usekeyboardsound_usekeyboardsound"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatComposer.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "target": "frontend_src_store_usechatstore_usechatstore"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_chatcomposer_chatcomposer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_components_chat_chatheader_chatheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_hooks_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_store_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_chatheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader_chatheader",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatHeader.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatheader_chatheader",
+      "target": "frontend_src_store_usechatstore_usechatstore"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_chatheader_chatheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_chatsidebar_mappeduser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_chatsidebar_mapuserforlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_chatsidebar_useravatar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_conversationrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_components_chat_conversationrow_conversationrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_hooks_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_hooks_useselectedconversation_getinitials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_lib_auth_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_lib_auth_client_authclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_store_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_store_useauthstore_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_store_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_chatsidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "target": "frontend_src_components_chat_chatsidebar_mapuserforlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar_mapuserforlist",
+      "target": "frontend_src_hooks_useselectedconversation_getinitials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "target": "frontend_src_store_useauthstore_useauthstore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/ChatSidebar.tsx",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_chatsidebar_chatsidebar",
+      "target": "frontend_src_store_usechatstore_usechatstore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_conversationrow",
+      "target": "frontend_src_components_chat_conversationrow_conversationrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_conversationrow",
+      "target": "frontend_src_components_chat_conversationrow_conversationrowprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/ConversationRow.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_conversationrow",
+      "target": "frontend_src_components_chat_conversationrow_conversationuser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_components_chat_messagebubble_mappedmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_components_chat_messagebubble_messagebubble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_components_chat_messagebubble_messagebubbleprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_components_chat_messagevideo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_components_chat_messagevideo_messagevideo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_lib_imagekit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble",
+      "target": "frontend_src_lib_imagekit_withtransform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_components_chat_messagebubble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/MessageBubble.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagebubble_messagebubble",
+      "target": "frontend_src_lib_imagekit_withtransform"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_components_chat_messagebubble_messagebubble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_components_chat_messagelist_messagelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_components_chat_noconversationplaceholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_components_chat_noconversationplaceholder_noconversationplaceholder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_hooks_usescrolltobottom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_hooks_usescrolltobottom_usescrolltobottom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_hooks_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_messagelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist_messagelist",
+      "target": "frontend_src_hooks_usescrolltobottom_usescrolltobottom"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/MessageList.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagelist_messagelist",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_components_chat_messagelist_messagelist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_components_chat_messagevideo_buildposterurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_components_chat_messagevideo_messagevideo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_components_chat_messagevideo_messagevideoprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_lib_imagekit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_lib_imagekit_isimagekiturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo",
+      "target": "frontend_src_lib_imagekit_withtransform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo_buildposterurl",
+      "target": "frontend_src_lib_imagekit_isimagekiturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo_buildposterurl",
+      "target": "frontend_src_lib_imagekit_withtransform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo_messagevideo",
+      "target": "frontend_src_components_chat_messagevideo_buildposterurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/components/chat/MessageVideo.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_messagevideo_messagevideo",
+      "target": "frontend_src_lib_imagekit_withtransform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/chat/NoConversationPlaceholder.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_components_chat_noconversationplaceholder",
+      "target": "frontend_src_components_chat_noconversationplaceholder_noconversationplaceholder",
       "confidence_score": 1.0
     },
     {
@@ -5710,7 +7583,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L7",
+      "source_location": "L1",
       "weight": 1.0,
       "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_context_wallpaper",
@@ -5754,7 +7627,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L7",
+      "source_location": "L1",
       "weight": 1.0,
       "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_context_wallpaper_usewallpaper",
@@ -5765,7 +7638,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "frontend_src_pages_chatpage_chatpage",
       "target": "frontend_src_context_wallpaper_usewallpaper",
@@ -5845,6 +7718,359 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useKeyboardSound.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_usekeyboardsound",
+      "target": "frontend_src_hooks_usekeyboardsound_keystrokesounds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useKeyboardSound.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_usekeyboardsound",
+      "target": "frontend_src_hooks_usekeyboardsound_usekeyboardsound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useMediaQuery.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_usemediaquery",
+      "target": "frontend_src_hooks_usemediaquery_usemediaquery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_usemediaquery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_usemediaquery_usemediaquery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "target": "frontend_src_hooks_usemediaquery_usemediaquery"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useScrollToBottom.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_usescrolltobottom",
+      "target": "frontend_src_hooks_usescrolltobottom_usescrolltobottom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_getinitials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_mappedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_mappedmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_mapusertoconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_mapusertoconversationparams",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_lib_auth_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_lib_auth_client_authclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_lib_utils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_lib_utils_formatmessagetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_useauthstore_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_usechatstore_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_hooks_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_mapusertoconversation",
+      "target": "frontend_src_hooks_useselectedconversation_getinitials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_mapusertoconversationparams",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_mapusertoconversationparams",
+      "target": "frontend_src_store_usechatstore_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_mapusertoconversation",
+      "target": "frontend_src_lib_utils_formatmessagetime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "target": "frontend_src_hooks_useselectedconversation_mapusertoconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "target": "frontend_src_store_useauthstore_useauthstore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/hooks/useSelectedConversation.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "target": "frontend_src_store_usechatstore_usechatstore"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage_chatpage",
+      "target": "frontend_src_hooks_useselectedconversation_useselectedconversation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "frontend/src/lib/auth-client.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -5853,25 +8079,98 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/axios.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_src_lib_axios",
+      "target": "frontend_src_lib_axios_axiosinstance",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_lib_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_lib_auth_client",
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_lib_axios",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_lib_axios_axiosinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "frontend_src_pages_chatpage",
-      "target": "frontend_src_lib_auth_client_authclient",
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_lib_axios_axiosinstance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_src_lib_imagekit",
+      "target": "frontend_src_lib_imagekit_isimagekiturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_src_lib_imagekit",
+      "target": "frontend_src_lib_imagekit_withtransform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/imagekit.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_src_lib_imagekit_withtransform",
+      "target": "frontend_src_lib_imagekit_isimagekiturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/lib/utils.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "frontend_src_lib_utils",
+      "target": "frontend_src_lib_utils_formatmessagetime",
       "confidence_score": 1.0
     },
     {
@@ -5888,10 +8187,198 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/pages/ChatPage.tsx",
-      "source_location": "L12",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "frontend_src_pages_chatpage",
       "target": "frontend_src_pages_chatpage_chatpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_store_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/pages/ChatPage.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_src_pages_chatpage_chatpage",
+      "target": "frontend_src_store_usechatstore_usechatstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_store_useauthstore_authresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_store_useauthstore_authstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_store_useauthstore_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useAuthStore.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_src_store_useauthstore",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore_chatstate",
+      "target": "frontend_src_store_useauthstore_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_useauthstore_useauthstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_chatstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L204",
+      "weight": 1.0,
+      "context": "argument",
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_chatstorecreator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_messagepayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_persistconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_persistedslice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/store/useChatStore.ts",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "frontend_src_store_usechatstore",
+      "target": "frontend_src_store_usechatstore_usechatstore",
       "confidence_score": 1.0
     },
     {
@@ -6686,5 +9173,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b44fccb7c0700e87222787b972fbf23cb7b6b939"
+  "built_at_commit": "b411264862161910518b4d8ca67fbb5be35be089"
 }

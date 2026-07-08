@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "backend/src/lib/auth.ts": {
-    "mtime": 1783440453.1514826,
-    "ast_hash": "67d59b277351a399338b25a006040ff0",
+    "mtime": 1783442261.5482626,
+    "ast_hash": "247fe2b30f9892ba0af698087c16a812",
     "semantic_hash": ""
   },
   "backend/src/lib/cron.ts": {

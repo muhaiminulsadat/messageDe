@@ -1,14 +1,14 @@
 {
   "0": "index.ts",
-  "1": "ThemeContext.tsx",
+  "1": "message.controller.ts",
   "2": "WallpaperPicker.tsx",
-  "3": "message.controller.ts",
+  "3": "dependencies",
   "4": "dependencies",
   "5": "compilerOptions",
   "6": "package.json",
   "7": "devDependencies",
   "8": "compilerOptions",
-  "9": "dependencies",
+  "9": "ConversationRow.tsx",
   "10": "compilerOptions",
   "11": "App.tsx",
   "12": "tsconfig.json",
@@ -17,5 +17,8 @@
   "15": "AuthPage.tsx",
   "16": "React + TypeScript + Vite",
   "17": "AGENTS.md",
-  "18": "AGENTS.md"
+  "18": "AGENTS.md",
+  "19": "ThemeContext.tsx",
+  "20": "useChatStore.ts",
+  "21": "useScrollToBottom.ts"
 }

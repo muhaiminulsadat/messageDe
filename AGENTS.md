@@ -6,7 +6,7 @@ Follow the clean code principles.
 
 - Write senior level code but it need to be easy to understand and maintainable for abosolute beginner also.
 
-here dont use the raw tailwind, use the heroui components
+- here dont use the raw tailwind, use the heroui v3 components. It's very important
 
 ## graphify
 
@@ -29,3 +29,5 @@ Rules:
   cost).
 
 make the design should not look like ai generated design
+
+- Dont add any comments

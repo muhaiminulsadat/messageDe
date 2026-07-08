@@ -22,14 +22,16 @@ app.use(
   }),
 );
 
-// 2. Authentication Handler (Better Auth)
+// 2. Custom Auth Routes
+app.use("/api/auth", authRoute);
+
+// 3. Authentication Handler (Better Auth)
 app.all("/api/auth/*splat", toNodeHandler(auth));
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-// 3. API Routes
-app.use("/api/auth", authRoute);
+// 4. API Routes
 app.use("/api/messages", messageRoutes);
 
 app.get("/health", (req, res) => {

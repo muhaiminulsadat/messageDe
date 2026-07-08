@@ -103,7 +103,7 @@ export const getMessages = async (req: Request, res: Response) => {
 
 export const sendMessage = async (req: Request, res: Response) => {
   try {
-    const {message} = req.body;
+    const {text, message} = req.body;
     const {id: receiverId} = req.params;
     const senderId = req.user?.id;
 
@@ -132,7 +132,7 @@ export const sendMessage = async (req: Request, res: Response) => {
     const newMessage = await Message.create({
       senderId: senderObjectId,
       receiverId: receiverObjectId,
-      message,
+      text: text || message,
       image: imageUrl,
       video: videoUrl,
     });
